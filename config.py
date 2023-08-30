@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5812639874:AAFJ41oqG_zg5or-mgFTb4LFbdh_HCEZ5JY")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6331021246:AAF9a2NzaPBpG3ZvP7BvfelDJuA7SlkunYY")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "25947375"))
@@ -19,10 +19,10 @@ APP_ID = int(os.environ.get("APP_ID", "25947375"))
 API_HASH = os.environ.get("API_HASH", "af7b9b8a0d377b4d3735199e9df008af")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001936405559"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001930428822"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "1867884587"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6408116706"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
@@ -49,7 +49,7 @@ except ValueError:
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>You need to join in my Channel/Group to use me\n\nKindly Please join Channel</b>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>━━━━━━━━━━•••••━━━━━━━━━\n🍿 Find any movie - https://t.me/+4LqXcslAOfJlZTBl\n🏘 Backup - @MOVIES_HUB_ALPHA\n❤️ SHARE AND SUPPORT US</b>")
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>━━━━━━━━━━•••••━━━━━━━━━\n ❤️ Join :- @MOVIES_HUB_ALPHA_official\n</b>")
 
 #set True if you want to prevent users from forwarding files from bot
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
